@@ -1,5 +1,5 @@
 
-Please got openai.com open an account and get an apikey. you will need an pay account since the free account is only good for $5.00
+Please get openai.com open an account and get an apikey. you will need an pay account since the free account is only good for $5.00
 you can set maxtoken=200 in the function
 
 please set up an .env file ins your code folder to place the api key
