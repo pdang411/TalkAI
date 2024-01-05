@@ -1,5 +1,4 @@
-# TalkAI
-Talk to openai and lm studio server 
+
 Please got openai.com open an account and get an apikey. you will need an pay account since the free account is only good for $5.00
 you can set maxtoken=200 in the function
 
@@ -36,5 +35,5 @@ file:talkopenai.py use pyttsxc3 tts have different voice
 file:talkopenai1.py have gtts tts have different voice
 file:talktolm.py use gtts
 
-I want to thank my udemy instructors "Arbaz Khan" ,"Alexander Schlee" to give me the ideas to talk to openai.I learn alot from them you can get their course on udemy.
+I want to thank my udemy instructors "Arbaz Khan" ,"Alexander Schlee" to give me the ideas to talk to openai.I learn alot from them you can get their courses on udemy.
 Try to experiment to incorporate different tts into the code to get new voices. Have fun  
