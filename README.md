@@ -28,7 +28,7 @@ pip install gtts
 pip install playsound
 pip isntall datetime
 pip install python-dotenv
-pip install numbpy 
+pip install numpy 
 pip install pyautogen # this will have all the python repo packages.
 
 I have set up four files Assistantbot is for your personal assistant and you can add the openai function to make it access to openai or your lm studio server.
