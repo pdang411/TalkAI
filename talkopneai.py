@@ -6,11 +6,13 @@ import speech_recognition as sr
 from dotenv import load_dotenv
 import os
 
+load_dotenv()
+
 from openai import OpenAI
 
 #pull api key from .env file please create a .env file and add your api key
 client = OpenAI(api_key=os.getenv("OPEN_API_KEY"))
-load_dotenv()
+
 
 # create an environment variable called OPENAI_API_KEY and set it to your key
 openai.api_key = os.getenv("OPEN_API_KEY")
