@@ -23,7 +23,7 @@ filename/Scripts/activate for vscode terminal
 
 create virtual-venv file in your vscode terminal or pycharm
 
-for mac 
+for mac  https://www.youtube.com/watch?v=Kg1Yvry_Ydk
 
 cd my-project/
 virtualenv venv
