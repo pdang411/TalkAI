@@ -8,10 +8,12 @@ OPEN_API_KEY= "input your api key"
 
 create virtual enviroment file in your code folder
 
+https://www.youtube.com/watch?v=yG9kmBQAtW4
+
 python -m venv ai1
 
 source ai1/Scripts/activate  ("ai1" is the name of the file you can name it to your liking) use this for git
-ai1/Scripts/activate " use thsi for vscode"
+ai1/Scripts/activate " use this for vscode"
 
 python -m venv filename
 
