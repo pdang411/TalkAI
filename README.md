@@ -10,11 +10,14 @@ create virtual enviroment file in your code folder
 
 python -m venv ai1
 
-source ai1/Scripts/activate  ("ai1" is the name of the file you can name it to your liking)
+source ai1/Scripts/activate  ("ai1" is the name of the file you can name it to your liking) use this for git
+ai1/Scripts/activate " use thsi for vscode"
 
 python -m venv filename
 
-source filename/Scripts/activate 
+source filename/Scripts/activate for git
+
+filename/Scripts/activate for vscode terminal
 
 create virtual-venv file in your vscode terminal or pycharm
 
