@@ -44,6 +44,11 @@ file:talkopenai.py use pyttsxc3 tts have different voice
 file:talkopenai1.py have gtts tts have different voice
 file:talktolm.py use gtts
 
+other sites 
+
+https://openai.com/
+
+https://lmstudio.ai/
 
 I want to thank my Udemy instructors, "Arbaz Khan" and "Alexander Schlee," for providing me with the ideas to communicate with OpenAI. I learned a lot from them, and you can find their courses on Udemy.
 
