@@ -23,6 +23,13 @@ filename/Scripts/activate for vscode terminal
 
 create virtual-venv file in your vscode terminal or pycharm
 
+for mac 
+
+cd my-project/
+virtualenv venv
+
+source venv/bin/activate
+
 pip install openai
 pip install datetime
 pip install pyttsx3  
@@ -53,3 +60,5 @@ https://lmstudio.ai/
 I want to thank my Udemy instructors, "Arbaz Khan" and "Alexander Schlee," for providing me with the ideas to communicate with OpenAI. I learned a lot from them, and you can find their courses on Udemy.
 
 Try experimenting to incorporate different text-to-speech (TTS) into the code to obtain new voices. Have fun!
+
+I have added a fix to change load_dotenv() before the code to load .env file with apikey.Add two links openai.com and you tube video how to set virtual enviroment file.add mac command and update vscode venv command.
