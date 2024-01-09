@@ -57,6 +57,14 @@ https://openai.com/
 
 https://lmstudio.ai/
 
+how to insttall vscode
+https://www.youtube.com/watch?v=Bn4TuMkHmB0
+
+how to install python on window 
+
+https://www.youtube.com/watch?v=m9I-YpOjXVQ
+
+
 I want to thank my Udemy instructors, "Arbaz Khan" and "Alexander Schlee," for providing me with the ideas to communicate with OpenAI. I learned a lot from them, and you can find their courses on Udemy.
 
 Try experimenting to incorporate different text-to-speech (TTS) into the code to obtain new voices. Have fun!
