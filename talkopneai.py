@@ -70,4 +70,4 @@ if __name__ == "__main__":
         response = chat_lm(human_input)
         #output from AI
         print("AI: " + response)
-        speak(response.content)
+        speak(response)
