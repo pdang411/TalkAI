@@ -75,7 +75,7 @@ requiremnts.txt is for all require python repo needed to be install to run the c
 
 main4.py file is Gradio app for openai chat window html.
 
-I have my window desktop default to dark mode if you want to add dark mode to gradio please code below.
+I have my window desktop default to dark mode if you want to add dark mode to gradio please see code below.
 ****
 import gradio as gr
 
