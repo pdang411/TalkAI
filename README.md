@@ -70,3 +70,10 @@ I want to thank my Udemy instructors, "Arbaz Khan" and "Alexander Schlee," for p
 Try experimenting to incorporate different text-to-speech (TTS) into the code to obtain new voices. Have fun!
 
 I have added a fix to change load_dotenv() before the code to load .env file with apikey.Add two links openai.com and you tube video how to set virtual enviroment file.add mac command and update vscode venv command.
+UPDATE: I have add new files requirements.txt and main4.py. 
+requiremnts.txt is for all require python repo needed to be install to run the code. Make sure to activate venv inside your vs code terminal and run pip install -r requirements.txt.
+
+main4.py file is Gradio app for openai chat window html.
+![Chat with Openai](https://github.com/user-attachments/assets/d8078f58-fa95-4f78-919e-4c25d51c6ae9)
+
+
