@@ -92,6 +92,7 @@ function refresh() {
 
 with gr.Blocks(js=js_func) as demo:
     demo.launch()
+    
 ![Chat with Openai](https://github.com/user-attachments/assets/d8078f58-fa95-4f78-919e-4c25d51c6ae9)
 
 
