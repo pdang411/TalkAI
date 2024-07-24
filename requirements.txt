@@ -1,0 +1,12 @@
+openai
+speechrecognition
+edge-tts
+pyttsx3
+pyaudio
+pydub
+python-dotenv
+pygame
+datetime
+gtts
+gradio
+googletrans==4.0.0-rc1
