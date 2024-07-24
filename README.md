@@ -74,6 +74,24 @@ UPDATE: I have add new files requirements.txt and main4.py.
 requiremnts.txt is for all require python repo needed to be install to run the code. Make sure to activate venv inside your vs code terminal and run pip install -r requirements.txt.
 
 main4.py file is Gradio app for openai chat window html.
+
+I have my window desktop default to dark mode if you want to add dark mode to gradio please code below.
+****
+import gradio as gr
+
+js_func = """
+function refresh() {
+    const url = new URL(window.location);
+
+    if (url.searchParams.get('__theme') !== 'dark') {
+        url.searchParams.set('__theme', 'dark');
+        window.location.href = url.href;
+    }
+}
+"""
+
+with gr.Blocks(js=js_func) as demo:
+    demo.launch()
 ![Chat with Openai](https://github.com/user-attachments/assets/d8078f58-fa95-4f78-919e-4c25d51c6ae9)
 
 
