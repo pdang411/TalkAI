@@ -53,7 +53,7 @@ file:talktolm.py use gtts
 
 other sites 
 
-https://openai.com/
+https://openai.com/ register get the API developer account.
 
 https://lmstudio.ai/
 
