@@ -13,20 +13,14 @@ import os
 load_dotenv()
 
 
-from openai import OpenAI
-
-#pull api key from .env file please create a .env file and add your api key
-client = OpenAI(api_key=os.getenv("OPEN_API_KEY"))
-
-
 # create an environment variable called OPENAI_API_KEY and set it to your key
 openai.api_key = os.getenv("OPEN_API_KEY")
 
-
+model="gpt-4o-mini"
 #chat with the local model
 def chat_lm(prompt):
-    response = client.chat.completions.create(
-        model="gpt-4-0613",
+    response =openai.ChatCompletion.create(
+        model=Model,
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": prompt}
