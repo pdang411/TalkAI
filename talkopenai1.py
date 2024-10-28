@@ -9,18 +9,18 @@ from gtts import gTTS
 import speech_recognition as sr
 from dotenv import load_dotenv
 import os
-
+from openai import OpenAI
 load_dotenv()
 
 
 # create an environment variable called OPENAI_API_KEY and set it to your key
-openai.api_key = os.getenv("OPEN_API_KEY")
+client = OpenAI(api_key=os.getenv("OPEN_API_KEY"))
 
 model="gpt-4o-mini"
 #chat with the local model
 def chat_lm(prompt):
-    response =openai.ChatCompletion.create(
-        model=Model,
+    response = client.chat.completions.create(
+        model="gpt-4o-mini",
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": prompt}
