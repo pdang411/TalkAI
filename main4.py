@@ -2,16 +2,16 @@ from dotenv import load_dotenv
 import os
 import gradio as gr
 import openai
-
+from openai import OpenAI
 load_dotenv()
 
 
-openai.api_key = os.getenv("OPEN_API_KEY")
+client = OpenAI(api_key=os.getenv("OPEN_API_KEY"))
 MODEL= "gpt-4o-mini"
 
 
 def generate_output(prompt, history):
-    response = openai.ChatCompletion.create(
+    response = client.chat.completions.create(
         model=MODEL,
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
@@ -21,7 +21,6 @@ def generate_output(prompt, history):
     )
     assistant_response = response.choices[0].message.content
     return [("assistant", assistant_response)],history
-
 
 
 prompt = "Enter a message to chat with the AI"
