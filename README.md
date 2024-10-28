@@ -96,3 +96,6 @@ with gr.Blocks(js=js_func) as demo:
 ![Chat with Openai](https://github.com/user-attachments/assets/d8078f58-fa95-4f78-919e-4c25d51c6ae9)
 
 
+Updated 10-28-2024 changed openai setting upgrade to openai=1.52. in cmd or vsc terminal pip openai-upgrade. Add import from openai import OpenAI
+Add code "client = OpenAI(api_key=os.getenv("OPEN_API_KEY"))" to set def as client
+Add code  "response = client.chat.completions.create" modify def chat_lmn if you had my earlier code that used openai=0.28 version
